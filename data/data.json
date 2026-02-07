@@ -1,0 +1,88 @@
+{
+	"stats": [
+		{
+			"id": 1,
+			"title": "Users",
+			"value": 1250,
+			"icon" : "fa-solid fa-user"
+		},
+		{
+			"id": 2,
+			"title": "Orders",
+			"value": 320,
+			"icon": "fa-solid fa-cart-shopping"
+		},
+		{
+			"id": 3,
+			"title": "Revenue",
+			"value": "$12,400",
+			"icon": "fa-solid fa-dollar-sign"
+		},
+		{
+			"id": 4,
+			"title": "Earnings",
+			"value": "$2,300",
+			"icon": "fa-solid fa-chart-line"
+		}
+	],
+	"sales": [
+		{
+			"month": "Jan",
+			"sales": 80
+		},
+		{
+			"month": "Feb",
+			"sales": 95
+		},
+		{
+			"month": "Mar",
+			"sales": 180
+		},
+		{
+			"month": "Apr",
+			"sales": 140
+		},
+		{
+			"month": "May",
+			"sales": 260
+		}
+	],
+	"orders": [
+		{
+			"id": 10234,
+			"user": "Alice",
+			"amount": 120,
+			"status": "Completed"
+		},
+		{
+			"id": 10233,
+			"user": "Mark",
+			"amount": 75,
+			"status": "Pending"
+		},
+		{
+			"id": 10232,
+			"user": "Sara",
+			"amount": 250,
+			"status": "Completed"
+		},
+		{
+			"id": 10231,
+			"user": "David",
+			"amount": 90,
+			"status": "Cancelled"
+		},
+		{
+			"id": 10230,
+			"user": "Jons",
+			"amount": 88,
+			"status": "Cancelled"
+		},
+		{
+			"id": 10229,
+			"user": "Alex",
+			"amount": 100,
+			"status": "Completed"
+		}
+	]
+}
