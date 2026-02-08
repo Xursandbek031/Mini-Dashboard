@@ -3,10 +3,9 @@ import { createContext, useEffect, useState } from "react"
 export const ThemeContext = createContext()
 
 export const ThemeProvider = ({ children }) => {
-	// App ochilganda localStorage tekshiradi
 	const [dark, setDark] = useState(() => {
 		const theme = localStorage.getItem("theme")
-		return theme === "dark" ? true : false // default light
+		return theme === "dark" ? true : false
 	})
 
 	useEffect(() => {
